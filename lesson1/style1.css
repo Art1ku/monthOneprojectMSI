@@ -1,0 +1,47 @@
+
+.mother{
+width: 100%;
+height: 100vh;
+margin-left: -8px;
+background-image: url(https://wallpapers.com/images/hd/msi-minimalist-dragon-on-black-background-p2rgkgyn3wkmbp0x.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin-top: -8px;
+box-sizing: border-box;
+}
+.header{
+width: 1500px;
+height: 300px;
+border-top-width: 0px;
+border-left-width: 0px;
+border-bottom-width: 1px;
+border-right-width: 0px;
+border-style: solid;
+box-sizing: border-box;
+}
+.logo{
+margin-top: 0px;
+margin-left: 20px;
+width: 200px;
+height: 200px;
+background-image: url(https://seeklogo.com/images/M/msi-logo-47BD237377-seeklogo.com.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+box-sizing: border-box;
+}
+.body{
+box-sizing: border-box;
+
+}
+.bottom{
+box-sizing: border-box;
+
+}
+.name{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
