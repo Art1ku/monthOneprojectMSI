@@ -7,7 +7,7 @@ width: 1920px;
 height: 8460px;;
 top: 15809px;
 left: 7996px;
-background-color: rgb(210, 210, 210);
+background-color: rgb(202, 202, 202);
 }
 .header{
 display: flex;
@@ -96,7 +96,7 @@ font-family: Speeder;
 font-size: 16px;
 }
 .video{
-margin-top: 280px;
+margin-top: 180px;
 
 }
 .videotext{
@@ -287,7 +287,7 @@ width: 335px;
     flex-direction: column;
 }
 .requestbutton{
-background-color: rgb(255, 122, 14);
+background-color: rgb(255, 38, 14);
 border: 0px;
 color: white;
 font-family: Speeder;
@@ -298,6 +298,143 @@ border-radius: 5px;
 position: absoulte;
 margin-top: 26px;
 }
+.services{
+padding-top: 120px;
+width: 100%;
+background: linear-gradient(rgba(228, 228, 228, 0.7), rgba(212, 212, 212, 0.8)), url(https://storage-asset.msi.com/global/picture/wallpaper/202303-6-1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.sevriceTitle{
+font-size: 46px;
+margin: 0;
+margin-bottom: 50px;
+}
+.serviceSubtitle{
+font-size: 23px;
+color: #787a80;
+margin: 0;
+}
+.serviceItems{
+margin-top: 60px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.serviceItem1{
+display: flex;   
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid white;
+width: 20%;
+height: 295px;
+border-radius: 40px;
+transition: background-image 1.5s ease;
+}
+.serviceItem1:hover{
+    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/1024.png);
+transition: background-image 1s ease;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.serviceItem2{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width: 20%;
+    height: 295px;
+    border-radius: 40px;
+    transition: background-image 1.5s ease;
+}
+.serviceItem2:hover{
+    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/MyMSI_icon.png);
+    transition: background-image 1s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.serviceItem3{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width: 20%;
+    height: 295px;
+    border-radius: 40px;
+    transition: background-image 1.5s ease;
+}
+.serviceItem3:hover{
+    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/d4b41def-ef60-4c75-b52b-0bfe0e023443__39134.jpg);
+    transition: background-image 1s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.serviceItem4{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    width: 20%;
+    height: 295px;
+    border-radius: 40px;
+    transition: background-image 1.5s ease;
+}
+.serviceItem4:hover{
+    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/9759793.png);
+    transition: background-image 1s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.serviceItem p{
+font-size: 18px;
+margin: 0;
+}
+.learnmore{
+
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.learnmorep{
+    display: flex;
+    font-size: 18px;
+}
+.services button{
+    font-size: 14px;
+    width: 16%;
+    padding: 0px 10px;
+    background-color: rgb(255, 38, 14);
+    border: 0px;
+    color: white;
+    font-family: Speeder;
+    height: 40px;
+    border-radius: 5px;
+    position: absoulte;
+    transition: background-color 1s ease;
+}
+.learnmore button:hover{
+    background-color: rgb(255, 166, 0);
+    transition: background-color 0.5s ease;
+}
+
 .bottom{
 
 }
