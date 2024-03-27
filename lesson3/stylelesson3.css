@@ -1,7 +1,12 @@
 @font-face {
     font-family: "Speeder";
+    font-weight: 400;
     src: url(fonts/Trobus-Expanded.ttf);
 }
+*{
+
+}
+
 .wrapper{
 width: 1920px;
 height: 8460px;;
@@ -51,7 +56,7 @@ height: 170px;
 margin-top: 280px;
 }
 .bodyback{
-height: 1100px;
+height: 940px;
 margin-top: 10px;
 width: 100%;
 background: linear-gradient(rgba(117, 117, 117, 0.7), rgba(60, 60, 60, 0.8)), url(asset/Navbar/202303-9-1.jpg);
@@ -60,7 +65,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 }
-.text1{
+.text1{ 
 font-family: Speeder;
 font-size: 15px;
 color: whitesmoke;
@@ -239,6 +244,16 @@ color: rgb(110, 110, 110);
     padding: 20px 80px;
     padding-bottom: 40px;
 }
+.formWrapper{
+    width: 100%;
+    margin-top: 120px;
+    background: linear-gradient(rgb(202, 202, 202) 50%, rgba(228, 228, 228, 0.7) 50%), url(https://storage-asset.msi.com/global/picture/wallpaper/202303-6-1.jpg);
+    background-position: center;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
 .requestp{
     font-weight: bold;
     font-size: 25px;
@@ -301,7 +316,7 @@ margin-top: 26px;
 .services{
 padding-top: 120px;
 width: 100%;
-background: linear-gradient(rgba(228, 228, 228, 0.7), rgba(212, 212, 212, 0.8)), url(https://storage-asset.msi.com/global/picture/wallpaper/202303-6-1.jpg);
+background: linear-gradient(rgba(228, 228, 228, 0.7), rgba(228, 228, 228, 0.7)), url(https://storage-asset.msi.com/global/picture/wallpaper/202303-6-1.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -337,13 +352,16 @@ width: 20%;
 height: 295px;
 border-radius: 40px;
 transition: background-image 1.5s ease;
+transition: color 0.3s ease;
 }
 .serviceItem1:hover{
-    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/1024.png);
+    background: linear-gradient(rgba(97, 97, 97, 0.712), rgba(117, 117, 117, 0.8)), url(asset/Navbar/1024.png);
 transition: background-image 1s ease;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+color: rgba(255, 255, 255, 0);
+transition: color 0.3s ease;
 }
 .serviceItem2{
     display: flex;   
@@ -355,13 +373,16 @@ background-size: cover;
     height: 295px;
     border-radius: 40px;
     transition: background-image 1.5s ease;
+    transition: color 0.3s ease;
 }
 .serviceItem2:hover{
-    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/MyMSI_icon.png);
+    background: linear-gradient(rgba(97, 97, 97, 0.712), rgba(117, 117, 117, 0.8)), url(asset/Navbar/MyMSI_icon.png);
     transition: background-image 1s ease;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.3s ease;
 }
 .serviceItem3{
     display: flex;   
@@ -373,13 +394,16 @@ background-size: cover;
     height: 295px;
     border-radius: 40px;
     transition: background-image 1.5s ease;
+    transition: color 0.3s ease;
 }
 .serviceItem3:hover{
-    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/d4b41def-ef60-4c75-b52b-0bfe0e023443__39134.jpg);
+    background: linear-gradient(rgba(97, 97, 97, 0.712), rgba(117, 117, 117, 0.8)), url(asset/Navbar/d4b41def-ef60-4c75-b52b-0bfe0e023443__39134.jpg);
     transition: background-image 1s ease;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.3s ease;
 }
 .serviceItem4{
     display: flex;   
@@ -391,13 +415,19 @@ background-size: cover;
     height: 295px;
     border-radius: 40px;
     transition: background-image 1.5s ease;
+    transition: color 0.3s ease;
 }
 .serviceItem4:hover{
-    background: linear-gradient(rgba(161, 161, 161, 0.7), rgba(117, 117, 117, 0.8)), url(asset/Navbar/9759793.png);
+    background: linear-gradient(rgba(97, 97, 97, 0.712), rgba(117, 117, 117, 0.8)), url(asset/Navbar/9759793.png);
     transition: background-image 1s ease;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.3s ease;
+}
+.serviceItem4:hover{
+
 }
 .serviceItem p{
 font-size: 18px;
@@ -434,11 +464,151 @@ margin: 0;
     background-color: rgb(255, 166, 0);
     transition: background-color 0.5s ease;
 }
+.Learnmoree{
+margin-top: 180px;
+width: 100%;
+height: 1200px;
+}
+.plearn{
+font-size: 46px;
+font-family: Speeder;
+margin-bottom: 70px;
+margin-left: 50px;
+}
+.learnmoreboxes{
+display: flex;
+justify-content: space-around;
+}
+.learnmorebox1{
+width: 390px;
+height: 440px;
+background-color: #d2d3d7;
+flex-direction: column;
+align-items: center;
+display: flex;
+margin: auto;
+border-radius: 40px;
+text-align: center;
+align-items: center;
+}
+.learninbox{
+    height: 100px;
+    transition: height 0.3s ease; 
+}
+.learninbox:hover{
+    transition: height 0.3s ease;
+    height: 260px;
+    text-align: center;
+    align-items: center;
+}
+.learninbox:hover .learnmorebut1{
+    display: block;
+}
+.learnmorebox2{
+    width: 390px;
+    height: 440px;
+    background-color: #d2d3d7;
+    flex-direction: column;
+align-items: center;
+display: flex;
+margin: auto;
+border-radius: 40px;
+text-align: center;
+align-items: center;
+}
+.learnmorebox2 img{
 
+}
+.learnmorebox3{
+    width: 390px;
+    height: 440px; 
+    background-color: #d2d3d7;
+    flex-direction: column;
+align-items: center;
+display: flex;
+margin: auto;
+border-radius: 40px;
+text-align: center;
+align-items: center;
+}
+.learnmorebox3 img{
+
+}
+.learnimg1{
+width:100%;
+height:310px;
+background: url(https://asset.msi.com/resize/image/global/product/product_1689818352d98a006e948ea3aaa0cf2282d3f059da.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 40px;
+}
+.learnimg2{
+    width:100%;
+    height:280px;  
+    background: url(https://storage-asset.msi.com/global/picture/image/feature/mb/Z790/Z790-GAMING-WIFI/modelblock-gaming-pd.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+margin-bottom: 30px;
+border-radius: 40px;
+}
+.learnimg3{
+    width:100%;
+    height:280px;  
+    background: url(https://storage-asset.msi.com/global/picture/image/feature/nb/GF/Katana-GF66/images/kv-laptop.png);  
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 30px;
+border-radius: 40px;
+}
+.learnmoreph{
+align-items: center;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.learnmorepl{
+align-items: center;
+font-size: 14px;
+color: #858585;
+}
+.learnmorebut1{
+margin: 40px;
+display: none;
+width: 200px;
+height: 50px;
+border: 0.3px solid rgb(255, 35, 35);
+background-color: #d2d3d7;
+color: rgb(255, 35, 35);
+font-family: Speeder;
+text-align: center;
+align-items: center;
+border-radius: 10px;
+transition: display 0.9s ease;
+}
 .bottom{
 
 }
 p{
 font-family: Speeder;
 font-size: 13px;
+}
+@media (max-width: 750px){
+    .conteiner{
+        padding: 0px 15px;
+        width: unset;
+    }
+    .navigation{
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+    .formData{
+        flex-direction: column;
+    }
+    .serviceItems{
+        flex-direction: column;
+    }
 }
