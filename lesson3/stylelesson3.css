@@ -6,7 +6,12 @@
 *{
 
 }
-
+.hidden{
+display: none;
+}
+.visible{
+    display: block !important;
+}
 .wrapper{
 background-color: rgb(202, 202, 202);
 }
@@ -23,6 +28,13 @@ justify-content: space-between;
 position: sticky;
 
 }
+.mobileMenu{
+display: none;
+}
+.mobileMenuOpened{
+    display: none;
+}
+
 .conteiner{
 width: 1500px;
 margin: auto;
@@ -739,5 +751,13 @@ font-size: 13px;
     }
     .serviceItems{
         flex-direction: column;
+    }
+    .headerwrapper{
+        padding: 8px 0px;
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .mobileMenuOpened{
     }
 }
