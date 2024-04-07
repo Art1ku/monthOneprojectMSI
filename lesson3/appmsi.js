@@ -1,14 +1,20 @@
-var mobileMenu = document.querySelector(".mobileMenu")
-var mobileMenuOpened = document.querySelector(".mobileMenuOpened")
+let mobileMenu = document.querySelector(".mobileMenu")
+let mobileMenuOpened = document.querySelector(".mobileMenuOpened")
+let mobileMenuClose = document.querySelector(".mobileMenuClose")
 
-console.log(mobileMenuOpened)
 mobileMenu.addEventListener("click", function () {
-    console.log("clicked")
-    var menu = document.createElement("div")
-    menu.innerText = "HELLOOOOOOOOOOOOOOOOOOOOOOO"
-    mobileMenuOpened.append(menu)
-    mobileMenuOpened.classList.add('visible')
+    mobileMenuOpened.classList.add("visible")
+    document.body.classList.add("overflowHidden")
 })
+mobileMenuClose.addEventListener("click", function(){
+    mobileMenuOpened.classList.remove("visible")
+    document.body.classList.remove("overflowHidden")
+   
+})
+if(window.innerWidth < 1050) {
+    var body = (document.getElementByTagName("mobileMenuOpened"))[0];
+    body.className = "mobileMenuOpened";
+}
 
 
 
