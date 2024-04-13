@@ -16,13 +16,6 @@ if(window.innerWidth < 1050) {
     body.className = "mobileMenuOpened";
 }
 
-servicesData.forEach(service => {
-    const seritem = document.createElement('div')
-    seritem.classList.add('serItem')
-
-    const img = document.createElement('img')
-    img.src = 
-})
 
 
 
