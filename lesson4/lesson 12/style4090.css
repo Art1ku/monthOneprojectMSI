@@ -197,3 +197,29 @@
     top: 310px;
     margin-left: 140px;
 }
+.tableWrapper{
+    padding: 0;
+    padding: 20px;
+    border: 1px solid #FFFFFF33;
+    width: 63%;
+    border-radius: 20px;
+}
+.heroo{
+    padding-top: 100px;
+    background-color: #1c1c1c;
+}
+td{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+tr{
+    margin: 10px;
+    padding-left: 30px;
+}
+thead{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+table{
+    width: 100%;
+}
