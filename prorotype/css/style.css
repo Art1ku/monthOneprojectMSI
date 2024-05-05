@@ -714,9 +714,11 @@ a {
 }
 .hide {
     display: none;
+    overflow: hidden;
 }
 .show {
     display: block;
+    overflow: hidden;
 }
 .fade {
     animation: fade 1.7s linear;
