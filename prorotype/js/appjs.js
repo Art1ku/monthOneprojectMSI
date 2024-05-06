@@ -40,9 +40,12 @@ function funk1(){
         hideTabContent()
         showTabContent(i)
         i++   
-    }, 1000)
-    
+        if(i===4)(
+            i=0
+        )
+    }, 2000) 
 }
+
 funk1()
 if(i===3){
     i=0
@@ -50,9 +53,6 @@ if(i===3){
 }else{
     i=0
 }
-
-
-
 
 
 // слайдер все
