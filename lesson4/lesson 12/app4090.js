@@ -40,7 +40,7 @@ const tableObj = {
         price: ["Цена: ", '2000 сом', '1900 сом', '1700 сом', '1600 сом', '1400 сом', '1350 сом', '1250 сом', '1200 сом', '1075 сом']
     }
 }
-quantity.setAttribute
+
 const tableWrapper = document.querySelector('.tableWrapper')
 
 function tableMaker(tableData){
