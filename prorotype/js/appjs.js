@@ -152,14 +152,14 @@ const Imgadd = () => {
 // const img114 = document.querySelector(".img114")
 
 const hideee = () => {
+    enableScroll()
     modall.classList.remove('show')
     modall.classList.remove('show')
     addImg1.classList.remove('show')
     addImg2.classList.remove('show')
     addImg3.classList.remove('show')
     addImg4.classList.remove('show')
-
-    enableScroll()
+    
 }
 // const hideee2 = () => {
 //     modall.classList.remove('show')
@@ -347,3 +347,40 @@ setTime(deadline)
 
 
 
+
+const forms = document.querySelectorAll('form')
+
+
+const postData = async (url, data) => {
+    const request = await fetch(url, {
+        method: "POST",
+        body: data
+    })
+    return request
+}
+
+const bindPostData = (form) => {
+    form.addEventListener('submit', (e) => {
+        e.preventDefault()
+
+        const formData = new FormData(form)
+
+        formDataObject = {}
+
+        formData.forEach((item, name) => {
+            formDataObject[name] = item
+        })
+
+
+        const stringifyObj = JSON.stringify(formDataObject)
+        console.log(stringifyObj)
+
+        postData("server.php", stringifyObj)
+    })
+}
+
+
+
+forms.forEach((form) => {
+    bindPostData(form)
+})
