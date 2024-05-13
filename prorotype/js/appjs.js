@@ -108,10 +108,44 @@ btnOn.addEventListener('click', (e) => {
     enableScroll()
 })
 
-const addImg = (i) => {
-    modal.classList.toggle("hide")
-}
+const imggg = document.getElementById("imggg")
 
+const addImg1 = () => {
+    modall.classList.add("show")
+    imggg.classList.add("show")
+    imggg.setAttribute("src", "img/tabs/vegy.jpg")
+
+    Imgadd()
+    disableScroll()
+    
+}
+const addImg2 = () => {
+    modall.classList.add("show")
+    imggg.classList.add("show")
+    imggg.setAttribute("src", "img/tabs/elite.jpg")
+    Imgadd()
+    disableScroll()
+
+}
+const addImg3 = () => {
+    modall.classList.add("show")
+    imggg.classList.add("show")
+    imggg.setAttribute("src", "img/tabs/post.jpg")
+    Imgadd()
+    disableScroll()
+
+}
+const addImg4 = () => {
+    modall.classList.add("show")
+    imggg.classList.add("show")
+    imggg.setAttribute("src", "img/tabs/hamburger.jpg")
+    Imgadd()
+    disableScroll()
+
+}
+const Imgadd = () => {
+    
+}
 // const img111 = document.querySelector(".img111")
 // const img112 = document.querySelector(".img112")
 // const img113 = document.querySelector(".img113")
@@ -119,7 +153,11 @@ const addImg = (i) => {
 
 const hideee = () => {
     modall.classList.remove('show')
-    modall.classList.add('hide')
+    modall.classList.remove('show')
+    addImg1.classList.remove('show')
+    addImg2.classList.remove('show')
+    addImg3.classList.remove('show')
+    addImg4.classList.remove('show')
 
     enableScroll()
 }
@@ -183,7 +221,7 @@ const hideee = () => {
 
 // timer
 
-const deadline = "2024-5-1"
+const deadline = "2024-5-20"
 
 console.log(deadline)
 console.log(new Date)
@@ -244,10 +282,21 @@ class Menu {
 				</div>
 			</div>
         `
-
         wrapper.append(block)
     }
 }
+
+const fetchMenu = async () => {
+    const request = await fetch('data.json')
+    const response = await request.json()
+    return response
+}
+
+fetchMenu().then((data) => {
+    data.menu.forEach(({img, alt, title, description, price}) => {
+        new Menu(img, alt, title, description, price).render()
+    })
+})
 
 console.log(getTime(deadline))
 
@@ -283,11 +332,16 @@ const setTime = (deadline) => {
         
     }
     
-        if(new Date(deadline) <= new Date){
-            stopInter()
-        }else{
-            
-        }
+    if(getTime(deadline).total <= 0){
+        days.innerHTML=0
+        hours.innerHTML=0
+        minutes.innerHTML=0
+        seconds.innerHTML=0
+        stopInter()
+    }else{
+        console.log('2')
+        // console.log(getTime(deadline).time)
+    }
 }
 setTime(deadline)
 

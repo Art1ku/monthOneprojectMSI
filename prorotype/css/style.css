@@ -742,6 +742,14 @@ a {
     top: 20%;
     left: 20%;
 }
+.imggggg{
+    display: none;
+    width: 600px;
+    height: 400px;
+    top: 20%;
+    left: 30%;
+    border-radius: 30px;
+}
 .hide {
     display: none;
     overflow: hidden;
@@ -757,6 +765,7 @@ a {
     display: block;
     position: relative;
 }
+
 @keyframes fade {
     0% {
         opacity: .1;
@@ -765,3 +774,8 @@ a {
         opacity: 1;
     }
 }
+
+
+
+
+

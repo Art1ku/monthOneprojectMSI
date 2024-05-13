@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="modall" onclick="showModal()">
+        <img src="" alt="" style="display: none;" id="1">
+        <img src="" alt="" style="display: none;" id="2">
+        <img src="" alt="" style="display: none;" id="3">
+        <img src="" alt="" style="display: none;" id="4">
+    </div>
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal()">&times;</span>
+            <img src="img/tabs/vegy.jpg" alt="Картинка">
+        </div>
+    </div>
+    
+    <script>
+    function showModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+    }
+    
+    function hideModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
+    </script>
+    
+    <style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.9);
+    }
+    
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+    
+    .modal-content img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .close {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        cursor: pointer;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    </style>
+</body>
+
+</html>
