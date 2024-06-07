@@ -37,6 +37,7 @@ const handleRequest = () => {
         console.log(response)
 
         nextPage = response.next
+        previousPage = response.previous
         // console.log(contentWrapper)
 
         const contentWrapperData = document.querySelectorAll('.item')
@@ -53,33 +54,5 @@ const handleRequest = () => {
 
     })
 }
+
 handleRequest()
-
-const handleRequest2 = () => {
-    const request = new XMLHttpRequest() // создание запроса
-    request.open("GET", previousPage) //объявление метода и пути запроса
-    request.setRequestHeader("Content-Type", "applocation/json") // добавление запроса
-    request.send() // отправка запроса
-
-    request.addEventListener("load", () => { // ожидание ответа
-        const response = JSON.parse(request.response)
-        console.log(response)
-
-        nextPage = response.next
-        // console.log(contentWrapper)
-
-        const contentWrapperData = document.querySelectorAll('.item')
-        contentWrapperData.forEach((item) => {
-            item.remove()
-        })
-
-        response.results.forEach((item) => {
-            const pokemon = document.createElement('p')
-            pokemon.classList.add('item')
-            pokemon.textContent = item.name
-            contentWrapper.append(pokemon)
-        })
-
-    })
-}
-handleRequest2()

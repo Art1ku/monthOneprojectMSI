@@ -1,0 +1,67 @@
+.wrapper{
+    display: flex;
+    position: sticky;
+    background-color: rgb(224, 224, 224);
+    border-bottom: 3px solid rgb(189, 2, 2);
+    padding: 0;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 90%;
+    height: 80px;
+    margin: auto;
+}
+.navigation{
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar{
+    margin-left: 1%;
+    margin-right: 5%;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.headerContainer{
+    max-width: 1280px;
+    margin: auto;
+    margin-left: 10%;
+}
+.headerContent{
+    
+    display: flex;
+}
+.contactBlock{
+    display: flex;
+}
+.contactsItem{
+    width: 200px;
+    display: flex;
+}
+.contactsItem p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+}
+.contactsItem img{
+    margin: auto;
+    width: 50px;
+}
+.contactBlock{
+    margin: auto;
+
+}
+.contactsItem img{
+    display: flex ;
+    width: 50px;
+    height: 50px;
+}

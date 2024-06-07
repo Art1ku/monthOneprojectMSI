@@ -1,30 +1,37 @@
 const navbarContent = [
     {
         title:"О НАС",
-        link: "about/"
+        link: "index4090ti.html",
     },
     {
         title:"КАТАЛОГ",
-        link: "catalog/"
+        link: "index4090ti copy.html",
     },
     {
         title:"НАШИ РАБОТЫ",
-        link: "works/"
+        link: "index4090ti copy 2.html",
     },
     {
         title:"КОНТАКТЫ",
-        link: "contacts/"
+        link: "index4090ti copy 3.html",
+    },
+    {
+        title:"ТАБЛИЦА",
+        link: "#tableee",
     },
 ]
 
-const navbar = document.querySelector(".navbar")
-
-navbarContent.forEach((item) => {
-    const linkEL = document.createElement("a")
-    linkEL.textContent = item.title
-    linkEL.setAttribute("href", '/${item.link}')
-    navbar.append(linkEL)
+const navbar = document.querySelectorAll(".navbar")
+console.log(navbar)
+navbar.forEach((navBarItem) => {
+    navbarContent.forEach((item) => {
+        const linkEL = document.createElement("a")
+        linkEL.textContent = item.title
+        linkEL.setAttribute("href", `/${item.link}`)
+        navBarItem.append(linkEL)
+    })
 })
+
 
 const tableObj = {
     table1: {
