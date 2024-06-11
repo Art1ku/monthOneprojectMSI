@@ -1,13 +1,48 @@
 import { useLocation } from "react-router-dom";
 import { Link } from 'react-router-dom'
+import classes from './Footer.module.scss'
+import logo from '../../assets/msi-seeklogo-4.svg'
+import logo2 from '../../assets/footerAssets/msi-5-logo-black-and-white.png'
+import whatsappIcon from '../../assets/footerAssets/WhatsApp.svg'
+import vector1 from '../../assets/footerAssets/Vector.svg'
+import vector2 from '../../assets/footerAssets/Vector (1).svg'
+import vector3 from '../../assets/footerAssets/Vector (2).svg'
+import vectro4 from '../../assets/footerAssets/Subtract.svg'
+import {TextField} from "@mui/material"
+
 
 export default function Footer (){
     return (
         <>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28926.230580319076!2d121.45417215175625!3d25.00763044297253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a82c71531cc7%3A0x6173619febf53ed9!2sMicro-Star%20International%20Co.%2C%20Ltd.!5e0!3m2!1sru!2skg!4v1717424562059!5m2!1sru!2skg" width="300" height="220" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            <br />
-            <br />
-            <br />
+            <div className={classes.FooterWrapper}>
+                
+                <div className={classes.Container}>
+                    <div className={classes.firstHalf}>
+                        <div className={classes.footerTextDiv}> 
+                            <div className={classes.whatareyoudoingthere}>
+                                <img src={logo2} className={classes.Logoss} alt="" />
+                                <div className={classes.logosConteiner}>
+                                    <img className={classes.logos} src={whatsappIcon} alt="" />
+                                    <img className={classes.logos} src={vector1} alt="" />
+                                    <img className={classes.logos} src={vector2} alt="" />
+                                    <img className={classes.logos} src={vector3} alt="" />
+                                    <img className={classes.logos} src={vectro4} alt="" />
+                                </div>
+                                
+                            </div>
+                            <div className={classes.textContainer}>
+                                <p className={classes.textLow}>Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We are proud to offer you quality construction and exemplary service. Our mission is to set the highest standards for construction sphere.</p>
+                            </div>
+                            
+
+                        </div>
+                        <div className={classes.footerInput}>
+                            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+                        </div>
+                    </div>
+                    <div className={classes.secondHalf}></div>
+                </div>
+            </div>
         </>
     )
 }

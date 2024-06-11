@@ -45,7 +45,7 @@ export default function MainPage() {
         <>
             <VideoBlock />
 
-            <Box sx={{
+            {/* <Box sx={{
                 '& > button':{
                     border: '10px solid'
                 }
@@ -133,7 +133,7 @@ export default function MainPage() {
                     <Button>Agree</Button>
                     </AccordionActions>
                 </Accordion>
-            </div> 
+            </div>  */}
         </>
     )
 }

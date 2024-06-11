@@ -1,4 +1,5 @@
 import Header from "../Header"
+import Footer from "../Footer"
 
 const Outlet = (props) => {
     
@@ -8,6 +9,8 @@ const Outlet = (props) => {
         <>
             <Header />
             {children}
+            <Footer />
+            
         </>
     )
 }
