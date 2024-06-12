@@ -11,6 +11,7 @@ import Work from "./pages/Work"
 import Contacts from "./pages/Contacts"
 import News from "./pages/News"
 import Services from "./pages/Services"
+import AvalPosit from "./pages/AvalPosit"
 
 function App() {
 
@@ -39,6 +40,10 @@ function App() {
       path: "/Contacts",
       element: <Outlet><Contacts /></Outlet>,
     },
+    {
+      path: "/AvalPosit",
+      element: <Outlet><AvalPosit /></Outlet>,
+    }
   ])
 
   return (
