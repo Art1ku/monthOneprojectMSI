@@ -5,5 +5,6 @@ import { Album } from "./Album/Album"
 import { Posts } from "./Posts/Posts"
 import { Photos } from "./Photos/Photos"
 import { Comments } from "./Comments/Comments"
+import { Profile } from "./Profile/Profile"
 
-export {Main, Users, NotFound, Album, Posts, Photos, Comments}
+export {Main, Users, NotFound, Album, Posts, Photos, Comments, Profile}

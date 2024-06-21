@@ -6,6 +6,7 @@ import icon from "../../../assets/navbar/Bread_icon-icons.com_68777.svg"
 import { CustomModal } from "../../UI/CustomModal/CustomModal"
 import { useState } from "react"
 import { Login } from "../Login/Login"
+import { useNavigate } from "react-router-dom"
 
 const navBar = [
     {
@@ -49,6 +50,8 @@ export const Header = () => {
         window.location.reload()
     }
 
+    const navigate = useNavigate()
+
     
     return(
         <>
@@ -63,7 +66,7 @@ export const Header = () => {
                         {
                         !user ?
                             <Button variant="contained" onClick={() => handleOpen()}>Sign up</Button>
-                            : <Button variant="contained" onClick={() => handleExit()}>Exit</Button>
+                            : <Button onClick={() => navigate("/profile")}>Profile</Button>
                         }
                     </nav>
             
