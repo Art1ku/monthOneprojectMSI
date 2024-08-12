@@ -1,0 +1,92 @@
+.wrapper{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 988px;
+    background: linear-gradient(rgba(0, 0, 0, 0.502), rgba(0, 0, 0, 0.487)), url(../../assets/1306174.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.HeroBlockContentContainer{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    // margin-left: 58px;
+}
+.heroContentHighP{
+    margin: 0;
+        p{
+            color: white;
+            margin: 0;
+            font-size: 72px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bolder;
+            letter-spacing: 1px;
+
+        }
+    
+}
+.MSIContainer{
+    display: flex;
+        p{
+            color: white;
+            margin: 0;
+            font-size: 72px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bolder;
+            letter-spacing: 1px;
+        }
+        .RedLetter{
+            color: rgb(190, 0, 25);
+            margin: 0;
+            letter-spacing: 1px;
+        }
+}
+.heroContentLowP{
+    margin: 0;
+    max-width: 47%;
+    margin-top: 18px;
+    .whiteText{
+        color: white;
+            margin: 0;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+    }
+
+}
+
+.heroContentButton{
+    max-width: 40%;
+    display: flex;
+    gap: 24px;
+    margin-top:4%;
+
+}
+.but1{
+    width: 278px;
+    height: 52px;
+    color: white !important;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
+// .but2{
+//     width: 224px;
+//     height: 52px;
+//     font-size: 16px;
+//     font-weight: 700;
+//     line-height: 52px;
+//     letter-spacing: 0.5px;
+//     text-align: center;
+// }

@@ -1,0 +1,163 @@
+.wrapper{
+    width: 100%;
+    height: 934px;
+    background-color: rgb(194, 194, 194);
+}
+.secondWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    padding-top: 80px;
+}
+.BlockName{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 59.8px;
+    text-align: center;
+    margin: 0;
+}
+.Products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.productDiv{
+    width: 120px;
+    height: 64px;
+    background-color: gray;
+}
+.Comment{
+    width: 600px;
+    height: 350px;
+    background-color:  rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgDiv{
+    position: relative;
+    width: 495px;
+    height: 550px;
+    background-color: gray;
+
+}
+.CommentBlockWrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.TopBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.InsideCommentBlockName{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 59.8px;
+    text-align: left;
+}
+.InsideCommentBlockWrapper{
+    width: 600px;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titleWrapper{
+    width: 600px;
+    height: 60px;
+}
+.titleP{
+    
+}
+.underTitleBlock{
+    
+}
+.commentPersonIcon{
+    width: 72px;
+    height: 72px;
+    background: url('../../assets/CommentBlock/photo_2024-07-16_23-33-09.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+
+    
+}
+.CommentPP{
+    width: 600px;
+    height: 78px;
+    p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        text-align: left;
+        margin: 0;
+    }
+}
+.PersonNameBlock{
+    width: 156px;
+    height: 51px;
+
+}
+.commentPBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 153px;
+}
+.name{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    text-align: left;
+
+}
+.companyName{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

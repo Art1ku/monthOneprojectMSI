@@ -73,16 +73,26 @@ export const Login = () => {
             <div className={classes.wrapper}>
                 <p className={classes.Name}>Login</p>
                 <div className={classes.inputWrapper}>
-                    <TextField onChange={(e) => {
+                    <div>
+                    <TextField
+                    className={classes.input}
+                    
+                    onChange={(e) => {
                         handleUpdLoginData('userName', 'value', e.target.value)
                         handleUpdLoginData('userName', 'error', false)
                     }} error={loginData.userName.error} variant="filled" label="Username" />
-                    {loginData.userName.error ? <p>Input more than 4 and not bigger than 16</p> : <></>}
-                    <TextField onChange={(e) => {
+                    {loginData.userName.error ? <p className={classes.errorText}>Input more than 4 and not bigger than 16</p> : <></>}
+                    </div>
+                    <div>
+                    <TextField
+                    className={classes.input}
+                    
+                    onChange={(e) => {
                         handleUpdLoginData('phoneNumber', 'value', e.target.value)
                         handleUpdLoginData('phoneNumber', 'error', false)
                     }} error={loginData.phoneNumber.error} variant="filled" label="Number"  />
-                    {loginData.phoneNumber.error ? <p>Phone pattern: +996 XXX XX-XX-XX</p> : <></>}
+                    {loginData.phoneNumber.error ? <p className={classes.errorText}>Phone pattern: +996 XXX XX-XX-XX</p> : <></>}
+                    </div>
                 </div>
                 <Button variant="contained" onClick={() => handleAddUser()}>Login</Button>
             </div>

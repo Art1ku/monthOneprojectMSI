@@ -13,6 +13,7 @@ import News from "./pages/News"
 import Services from "./pages/Services"
 import AvalPosit from "./pages/AvalPosit"
 
+
 function App() {
 
   const router = createBrowserRouter([
@@ -43,17 +44,12 @@ function App() {
     {
       path: "/AvalPosit",
       element: <Outlet><AvalPosit /></Outlet>,
-    }
+    },
   ])
 
   return (
     <>
       <RouterProvider router={router}/>
-      {/* <Container>
-        <Header />
-      </Container>
-      <MainPage />
-      <Footer/> */}
     </>
   )
 }

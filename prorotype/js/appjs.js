@@ -257,7 +257,17 @@ const getTime = (deadline) => {
 // }
 
 // console.log(new Dog(10, 'white').bark())
+const fetchMenu = async () => {
+    const request = await fetch('prorotype/js/data.json')
+    const response = await request.json()
+    return response
+}
 
+fetchMenu().then((data) => {
+    data.menu.forEach(({img, alt, title, description, price}) => {
+        new Menu(img, alt, title, description, price).render()
+    })
+})
 class Menu {
     constructor(img, alt, title, description, price){
         this.img = img
@@ -286,17 +296,7 @@ class Menu {
     }
 }
 
-const fetchMenu = async () => {
-    const request = await fetch('data.json')
-    const response = await request.json()
-    return response
-}
 
-fetchMenu().then((data) => {
-    data.menu.forEach(({img, alt, title, description, price}) => {
-        new Menu(img, alt, title, description, price).render()
-    })
-})
 
 console.log(getTime(deadline))
 

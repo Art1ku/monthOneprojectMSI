@@ -1,0 +1,24 @@
+.wrapper{
+    margin-top: 70px;
+
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.avatarDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hiddenInput{
+    display: none;
+}
+.labelDiv{
+    width: 200px;
+    height: 200px;
+}

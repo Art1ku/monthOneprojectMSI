@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom"
 import { Main, NotFound, Users, Album, Posts, Photos, Comments, Profile} from "./pages"
 import { Header } from "./components/Base"
+import { ThemeContext } from "@emotion/react"
+import { useContext } from "react"
 
 function App() {
 
@@ -8,8 +10,13 @@ function App() {
 
   const user = localStorage.getItem('user')
 
+  const themeContext = useContext(ThemeContext)
+
+  const {theme} = themeContext
+
   return (
     <>
+    <div className={`appWrapper ${}`}>
       <Header />
       <Routes>
         <Route path="/" element={<Main />}/>
@@ -22,6 +29,7 @@ function App() {
         {user ? <Route path="profile" element={<Profile />}></Route> : <></>}
 
       </Routes>
+    </div>
     </>
   )
 }
