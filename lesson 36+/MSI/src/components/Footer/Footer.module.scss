@@ -1,0 +1,228 @@
+.FooterWrapper{
+    width: 100%;
+    height: auto;
+    background-color: rgb(37, 42, 49);
+    padding-top: 60px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.Container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footerText{
+    
+}
+.firstHalf{
+    width: 47%;
+    height: 100%;
+    display: block;
+}
+.secondHalf{
+    width: 47%;
+    height: 100%;
+    display: block;
+}
+.whatareyoudoingthere{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.textUp{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+.textLow{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+}
+.logos{
+    width: 24px;
+    height: 24px;
+}
+.logosConteiner{
+    justify-content: space-between;
+    width: 210px;
+    display: flex;
+}
+.footerTextDiv{
+    width: 100%;
+    height: 200px;
+}
+.footerInput{
+    width: 100%;
+    height: 200px;
+}
+.Logoss{
+    width: 122px;
+    height: 24px;
+}
+.textContainer{
+    width: 89%;
+}
+.NavConT{
+    display: flex;
+}
+.InputField{
+    display: flex;
+    gap: 0;
+}
+.EmailField{
+    background: rgba(117, 117, 117, 0.487);
+    width: 364px;
+    height: 44px;
+    margin: 0;
+    border: 0px;
+    border-radius: 4px;
+    border-top: 1px rgb(164, 164, 164);
+    color: rgb(164, 164, 164);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.submitButton{
+    color: white;
+    width: 0px;
+    height: 0px;
+    width: 131px;
+    height: 46px;
+    margin: 0;
+    border: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    background-color: #ff1f1f;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px;
+
+}
+.EmailField:focus {
+    outline: none;
+
+}
+.footerTextDiv{
+    display: block;
+}
+.FooterInput{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    color: white;
+    margin: 0;
+    margin-bottom: 5%;
+}
+.pAfterInput{
+
+   font-family: Ubuntu;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 18px;
+   text-align: left;
+   color: #9b9b9b;
+
+}
+.divForPAfterInput{
+    width: 495px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0.6px;
+}
+.whiteP{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.greyP{
+    color: rgb(164, 164, 164) ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.greyPaddres{
+    color: rgb(164, 164, 164) ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+.greyPaddres :visited{
+    color: rgb(164, 164, 164) ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    border: none;
+}
+.headOfficeP h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+
+}
+.PContainer{
+    width: 100%;
+    height: 26px;
+    display: flex;
+}
+.PContainer p{
+    margin: 2px;
+}
+.headOfficeP{
+
+}
+.whoWeAreP h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin: 6px;
+}
+.ourExperienceP h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin: 6px;
+}
+.whoWeAreP{
+
+}
+.ourExperienceP div{
+    margin-left: 4px;
+    
+}
+.whoWeAreP div{
+    margin-left: 4px;
+    
+}
+.brSpace{
+    margin-bottom: 20px;
+}
+.footerNavMargin{
+    
+}
+.NavConT{
+    display: flex;
+    justify-content: space-between;
+}

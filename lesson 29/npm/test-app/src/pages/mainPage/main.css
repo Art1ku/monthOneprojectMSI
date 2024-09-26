@@ -1,0 +1,87 @@
+.mainLogo{
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 220px;
+    height: 68px;
+}
+.but1{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(111.4deg, rgb(246, 4, 26) 0.4%, rgb(251, 139, 34) 100.2%); 
+    border: 1px solid rgb(141, 141, 141) ;
+    color: #ffffff;
+    border-radius: 15px;
+    font-family: Speeder;
+
+}
+.but2{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(111.4deg, rgb(246, 4, 26) 0.4%, rgb(251, 139, 34) 100.2%); 
+    border: 1px solid rgb(141, 141, 141) ;
+    color: #ffffff;
+    border-radius: 15px;
+    font-family: Speeder;
+}
+.but1 :hover{
+    transition: color 1s;
+    background-color: orange;
+}
+.but2 :hover{
+    transition: color 1s;
+    background-color: orange;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    border-bottom: solid 2px red;
+    background-color: rgb(201, 201, 201);
+}
+html{
+    margin: 0;
+}
+
+.list{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c1cfff2-db8d-44cd-8a13-cb2a4162fae6/dd2zouo-047f7b3f-b895-43ac-82a4-abb6ca12c52a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMWNmZmYyLWRiOGQtNDRjZC04YTEzLWNiMmE0MTYyZmFlNlwvZGQyem91by0wNDdmN2IzZi1iODk1LTQzYWMtODJhNC1hYmI2Y2ExMmM1MmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EFI6YQ0acRLpYHzupMAxV_N4KMcpNWT-_3RJ4TV-4eU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.wrapper{
+    margin: 0;
+    background-color: rgba(240, 248, 255, 0);
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c1cfff2-db8d-44cd-8a13-cb2a4162fae6/dd2zouo-047f7b3f-b895-43ac-82a4-abb6ca12c52a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMWNmZmYyLWRiOGQtNDRjZC04YTEzLWNiMmE0MTYyZmFlNlwvZGQyem91by0wNDdmN2IzZi1iODk1LTQzYWMtODJhNC1hYmI2Y2ExMmM1MmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EFI6YQ0acRLpYHzupMAxV_N4KMcpNWT-_3RJ4TV-4eU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#root{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+.conteiner{
+    width: 1200px;
+    margin: auto;
+    padding: auto;
+}
+.startOfTheFooter{
+    width: 100%;
+    height: 170px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(48, 48, 48) 100%);
+}

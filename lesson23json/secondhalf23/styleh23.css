@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 100vh;
+}
+.wrapper h1{
+    color: white;
+}

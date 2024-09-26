@@ -1,0 +1,7 @@
+.dataWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.dataWrapper p{
+    margin: 6px;
+}
